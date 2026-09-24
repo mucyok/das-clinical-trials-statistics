@@ -1,0 +1,9 @@
+/* Small source line in the bottom margin of the slide, and the references slide. */
+.slide-citation{position:absolute;left:0;right:150px;bottom:-26px;margin:0;font-size:13px;line-height:1.25;color:var(--muted);font-style:normal;letter-spacing:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.slide-citation a,.references a{color:inherit;text-decoration:none}
+.slide-citation a:hover,.references a:hover{text-decoration:underline}
+.references-slide .content{overflow:hidden}
+.references{font-size:19px;line-height:1.35;color:var(--ink);max-width:1120px;margin:0;padding-left:28px}
+.references li{margin:0 0 12px;padding-left:4px}
+.references li::marker{color:var(--muted)}
+.references a{color:var(--teal)}

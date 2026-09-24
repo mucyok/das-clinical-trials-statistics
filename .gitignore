@@ -1,0 +1,13 @@
+# Safety net: this repository only holds the public slides.
+.DS_Store
+node_modules/
+*.py
+export.mjs
+qa/
+captures/
+history/
+teacher-notes*
+speaker-script*
+notes/
+tasks/
+references/

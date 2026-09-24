@@ -1,0 +1,31 @@
+/* Match the existing 1280 x 720 stage. No viewport-specific content changes. */
+.v4-normal .content,.v4-theorem .content,.v4-recentre .content,.v4-interval .content,.v4-levels .content{top:132px}
+.v4-reference{font-size:28px;display:flex;align-items:center;justify-content:space-between;margin:0 25px 12px}
+.v4-reference span{font-size:24px;color:var(--muted)}
+.v4-normal .v4-bell{height:355px}
+.v4-equation{font-size:29px;text-align:center;line-height:1.5}
+.v4-equation .katex-display{margin:12px 0}
+.v4-normal .bottomline,.v4-theorem .bottomline,.v4-recentre .bottomline,.v4-interval .bottomline,.v4-levels .bottomline{font-size:25px}
+.v4-quantiles .bottomline{font-size:24px}
+.v4-quantiles .v4-equation{font-size:28px}
+.v4-theorem .medium{font-size:27px;margin-bottom:8px}
+.v4-theorem .v4-equation{font-size:27px}
+.v4-theorem .parameter-line{font-size:25px;margin:8px 0 12px}
+.v4-table{border-collapse:collapse;width:760px;margin:15px auto;font-size:25px;text-align:center}
+.v4-table th{font-weight:500;color:var(--muted);border-bottom:2px solid var(--line);padding:8px 15px}
+.v4-table td{padding:8px 15px;border-bottom:1px solid var(--pale)}
+.v4-table td:last-child{color:var(--teal)}
+.v4-recentre .chart{height:240px;margin-top:25px}
+.v4-recentre .lead,.v4-interval .lead{font-size:32px}
+.v4-recentre .v4-equation{font-size:28px}
+.v4-support{font-size:26px;margin-top:20px}
+.v4-interval .v4-equation{margin-top:24px;font-size:28px}
+.v4-interval .chart{height:250px;margin-top:38px}
+.v4-alpha{margin-top:45px}
+.v4-tail-strip{display:flex;align-items:center;justify-content:center;margin:28px auto;width:850px;font-size:30px}
+.v4-tail-strip span{flex:1;text-align:center;padding:22px 0;background:#f7e9ee;color:var(--rose)}
+.v4-tail-strip strong{flex:4;text-align:center;padding:22px 0;font-weight:500;background:var(--pale);color:var(--teal)}
+.v4-levels .chart{height:438px}.v4-levels .medium{font-size:28px;margin-bottom:0}
+.v4-planning .v4-equation{margin:25px 0}.v4-planning .medium{font-size:28px}
+.v4-closing .reading-lines{gap:20px;margin-top:25px}.v4-closing .closing-question{margin-top:28px}
+.v4-closing .closing-question p{font-size:27px}.v4-closing .bottomline{font-size:23px}

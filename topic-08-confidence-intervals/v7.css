@@ -1,0 +1,14 @@
+/* Scope all geometry to slide 15. Retain the deck's uniformly scaled 1280x720 stage. */
+.v7-interval header h1{font-size:42px}
+.v7-interval .content{top:130px}
+.v7-convention{font-size:26px;margin:0;text-align:center}
+.v7-definition{display:flex;justify-content:center;align-items:center;gap:72px;font-size:30px;margin:15px 0 8px}
+.v7-margin,.v7-example-margin,.v7-rose-math{color:var(--rose)}
+.v7-specialisation{font-size:24px;text-align:center;margin:0 0 7px}
+.v7-reference-pair{display:grid;grid-template-columns:1fr 1fr;gap:48px}
+.v7-interval .v7-reference-pair .v7-reference{width:100%;height:375px;margin:0}
+.v7-interval .bottomline{font-size:24px}
+.v7-example-level{font-size:27px;text-align:center;margin:20px 0}
+.v7-example-margin{font-size:29px;text-align:center;margin:13px 0 0}
+.v7-example-margin .katex-display{margin:0}
+.v7-interval .v7-numeric-chart{height:225px;margin-top:5px}

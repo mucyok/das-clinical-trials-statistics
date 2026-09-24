@@ -1,0 +1,4 @@
+/* Local adjustments retain the shared scaled canvas, without a new breakpoint. */
+.v4-relabel .v5-coordinate-head>div,.v4-relabel .v5-coordinate-head>div:first-child{font-size:40px;color:var(--ink)}
+.v7-interval .v7-reference-pair .v7-reference{height:330px}
+.v7-interval .chart.v7-numeric-chart{height:305px;margin-top:20px}

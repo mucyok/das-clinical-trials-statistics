@@ -1,0 +1,18 @@
+/* Scoped to the three requested slides. All other slides retain their existing styles. */
+.estimator-function-slide .content{top:136px}
+.estimator-function-slide .lead{font-size:32px;margin-bottom:18px}
+.estimator-function-slide .coding-line{font-size:26px;margin-bottom:24px;color:var(--muted)}
+.estimator-function-slide .formula{font-size:32px;margin:18px 0}
+.estimator-function-slide .medium{font-size:28px;margin-bottom:12px}
+.estimator-function-slide .rule{margin:28px 0}
+.estimator-function-slide .estimate-result{font-size:31px}
+.counted-slide.sampling-context-slide .content{top:129px}
+.sampling-context-slide .content>.medium{font-size:27px;margin-bottom:5px}
+.sampling-context-slide .compact-sampling-chart{height:118px}
+.sampling-context-slide .counted-histogram{height:263px}
+.sampling-context-slide .empirical-readout{font-size:27px;margin:5px 0 8px}
+.sampling-context-slide .story-controls button{font-size:20px;padding:5px 10px}
+.sampling-context-slide .bottomline{font-size:24px}
+.sizes-slide.discrete-comparison-slide .size-rows{height:411px}
+.discrete-comparison-slide .scale-caption{font-size:22px;margin:3px 0 6px;color:var(--muted)}
+.discrete-comparison-slide .bottomline{font-size:24px}

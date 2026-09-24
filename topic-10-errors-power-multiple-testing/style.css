@@ -1,0 +1,26 @@
+.harking-slide .content{top:122px}
+.harking-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:58px;align-items:start}
+.harking-copy .lead{font-size:31px;line-height:1.38;margin:0 0 22px}
+.harking-copy .medium{font-size:27px;line-height:1.42;margin:0 0 18px}
+.term{color:var(--teal);font-weight:400}
+.harking-image{display:block;height:392px;max-width:100%;object-fit:contain;justify-self:center}
+.harking-figure{margin:0;text-align:center}
+.harking-source{font-size:14px;line-height:1.25;color:var(--muted);margin:7px 0 0}
+.hark-example{font-size:26px;line-height:1.38;margin:8px 0 0;padding-left:34px}
+.hark-example li{margin:8px 0}
+.harking-slide .bottomline{font-size:23px}
+.p-hacking-slide .content{top:123px}
+.p-hacking-definition{font-size:29px;line-height:1.42;margin:0 0 12px;max-width:1120px}
+.p-hacking-slide .family-grid{margin-top:24px;gap:12px}
+.p-hacking-slide .family-test{height:88px;padding-top:10px;font-size:21px}
+.p-hacking-slide .family-test small{font-size:18px;margin-top:7px}
+.p-hacking-note{margin:9px 0 0;font-size:18px}
+.p-hacking-slide .bottomline{font-size:23px}
+.replication-slide .content{top:121px}
+.replication-slide .lead{font-size:27px;margin-bottom:3px}
+.replication-figure{display:block;width:100%;height:334px;object-fit:contain;margin:0 auto}
+.replication-note{font-size:17px;line-height:1.28;color:var(--muted);margin:0 0 7px;text-align:center}
+.replication-findings{display:grid;grid-template-columns:1fr 1fr;gap:52px;min-height:63px}
+.replication-findings p{font-size:21px;line-height:1.28;margin:0}
+.replication-findings strong{color:var(--teal)}
+.replication-source{font-size:14px;line-height:1.2;color:var(--muted);margin:8px 0 0}
