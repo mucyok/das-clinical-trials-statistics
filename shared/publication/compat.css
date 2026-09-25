@@ -1,0 +1,5 @@
+/* See compat.js. A formula without stacked parts (numbers, percentages, simple symbols) keeps its
+   exact layout without position:relative, which is what Safari fails to place inside SVG. */
+html.webkit foreignObject:not(:has(.vlist)) .katex .base{position:static}
+html.webkit foreignObject:not(:has(.vlist)) .katex-mathml{display:none}
+html.webkit .lifted-formula{position:absolute;transform-origin:0 0;pointer-events:none;overflow:visible}
