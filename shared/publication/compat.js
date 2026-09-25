@@ -1,19 +1,11 @@
 /* Safari (WebKit) misplaces positioned HTML inside SVG foreignObject whenever the drawing is scaled,
    moved or animated. On WebKit only: mark the page so compat.css can flatten simple formulas,
-   avoid movement animations inside formulas, rewrite single subscripts or superscripts (x₁, Q₃)
-   as a plain vertical offset, and lift the remaining stacked formulas out of the SVG. */
+   rewrite single subscripts or superscripts (x₁, Q₃) as a plain vertical offset, and lift the
+   remaining stacked formulas out of the SVG. Animations are left untouched. */
 (() => {
  const ua = navigator.userAgent;
  if (!/AppleWebKit/.test(ua) || /Chrome\/|Chromium\/|Edg\//.test(ua)) return;
  document.documentElement.classList.add('webkit');
-
- // A transform animation inside a foreignObject leaves its formula misplaced and mis-scaled:
- // keep the fade, drop the slide-in movement.
- const animate = Element.prototype.animate;
- Element.prototype.animate = function (keyframes, options) {
-  if (Array.isArray(keyframes) && this.closest?.('foreignObject') && keyframes.some(k => 'transform' in k)) keyframes = keyframes.map(({transform, ...rest}) => rest);
-  return animate.call(this, keyframes, options);
- };
 
  // KaTeX places a lone script with position:relative (top T) above a strut of height P:
  // its baseline sits T + P below the main baseline, which vertical-align reproduces without positioning.
