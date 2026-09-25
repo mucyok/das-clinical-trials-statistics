@@ -20,7 +20,7 @@ Each folder holds the animated slides (`index.html`) and a PDF. The folder `shar
 
 ## Viewing the slides
 
-Online, open the site's home page (GitHub Pages). Locally, open `index.html` at the root in a browser; no installation is needed. Use the arrow keys or the space bar to move step by step.
+Online, open the site's home page (GitHub Pages). Locally, open `index.html` at the root in a browser; no installation is needed.
 
 ## Sources
 

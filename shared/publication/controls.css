@@ -1,0 +1,8 @@
+/* Public navigation polish (see controls.js). */
+#position{display:inline-block;min-width:4.6em;text-align:center;font-variant-numeric:tabular-nums}
+#homeButton,nav .icon-button{display:inline-flex;align-items:center;justify-content:center;width:34px;height:31px;padding:0;box-sizing:border-box;color:var(--ink);background:white;border:1px solid #b0bec1;border-radius:3px}
+#homeButton:hover{background:#e4f0f0}
+#homeButton:focus-visible{outline:3px solid var(--rose);outline-offset:2px}
+#overview [data-close-overview]{display:none}
+#overview .overview-close{position:sticky;top:-14px;float:right;display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;margin:-14px -14px 0 12px;padding:0;border:1px solid #b0bec1;border-radius:50%;background:white;color:var(--ink);cursor:pointer;z-index:1}
+#overview .overview-close:hover{background:#e4f0f0}
